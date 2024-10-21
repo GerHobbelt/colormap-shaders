@@ -1,6 +1,6 @@
 # colormap-shaders
 
-A collection of shaders to draw color map like this:
+A collection of shaders to draw a color map like this:
 
 ![rainbow](sample/transform_rainbow.png).
 
@@ -23,6 +23,7 @@ void main() {
 ### gnuplot.frag
 
 This shader emulates `gnuplot`'s `rgbformulae`, and the signature of `colormap` is:
+
 ```
 vec4 colormap(float x, int red_type, int green_type, int blue_type);
 ```
